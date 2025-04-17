@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="My Portfolio", page_icon="📄", layout="wide")
 
 
-st.title("👋 Hi, I'm Maheen Imran")
+st.title("👋 Hi, I'm Muhammad Sami")
 st.subheader("A Passionate Web Developer and AI Enthusiast")
 
 st.write("""
