@@ -1,0 +1,9 @@
+import os
+
+folder_path = 'C:\Project 4 Assignments\Assignments 01\project 6,Bulk File Re-namer Python'
+counter = 1
+
+for filename in os.listdir(folder_path):
+    os.rename(folder_path + '//' + filename , folder_path + '//' + 'my- docs' + str(counter))
+    counter += 1
+
